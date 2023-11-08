@@ -2,6 +2,39 @@ body {
   padding: 10px;
 }
 
-input {
-  margin: 5px;
+label {
+  margin-bottom: 10px;
+}
+
+.email-form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: left;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* textarea{
+  height: 400 px;
+  width: 800px;
+} */
+
+#button-submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#name,#email{
+  width: 25%;
 }
